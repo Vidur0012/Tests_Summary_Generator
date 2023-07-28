@@ -1,0 +1,12 @@
+{
+  "automationSuite": {
+    "fileName":"Automation_Suite"
+  },
+  "sanity": {
+
+  },
+  "location": {
+    "srcDir": ["src", "com", "sample", "xls"],
+    "outDir":[]
+  }
+}
