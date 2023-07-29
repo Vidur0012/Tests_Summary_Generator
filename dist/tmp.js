@@ -9,8 +9,14 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-(function Summarize() {
-    return __awaiter(this, void 0, void 0, function* () {
-    });
-})();
-// console.log((workbook));
+const promises_1 = require("fs/promises");
+const latestFileOfToday = (dirPath) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const files = yield (0, promises_1.readdir)(dirPath);
+        console.log(files);
+    }
+    catch (err) {
+        console.error(err);
+    }
+});
+latestFileOfToday(__dirname + "/../" + "sheets");

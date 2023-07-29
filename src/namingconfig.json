@@ -1,0 +1,15 @@
+{
+  "automationSuite": {
+    "fileName":"Automation_Suite",
+    "sheetName":"Test Suite",
+    "ext":".xls"
+  },
+  "sanity": {
+    "sheetName":"Test Steps",
+    "ext":".xls"
+  },
+  "xlsFileLocation": {
+    "srcDir": ["src", "com", "sample", "xls"],
+    "outDir":[]
+  }
+}

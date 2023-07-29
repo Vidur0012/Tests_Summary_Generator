@@ -4,14 +4,17 @@
   "description": "A summary generator which takes all excelsheets of testcases of projects and generate one summary file per project, which contains counts of different categories of tests results.",
   "main": "./dist/index.js",
   "scripts": {
-    "start":"tsc && node ./dist/index.js",
+    "start": "tsc && node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^20.4.5",
     "@types/xlsx": "^0.0.36",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
   }
 }

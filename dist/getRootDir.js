@@ -1,4 +1,5 @@
-import { fileURLToPath } from "url";
-import { dirname } from "path";
+"use strict";
+// const { fileURLToPath } = require("url");
+// const { dirname } = require("path");
 // getting root directory of project
-export const ROOTDIR = dirname(dirname(fileURLToPath(import.meta.url)));
+// export const ROOTDIR = dirname(dirname(fileURLToPath(import.meta.url)));
